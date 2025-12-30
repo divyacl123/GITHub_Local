@@ -83,7 +83,7 @@
         <version>3.5.4</version>
         <configuration>
           <suiteXmlFiles>
-				<suiteXmlFile>BatchExe.xml</suiteXmlFile>
+				<suiteXmlFile>RegionalImpact.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
