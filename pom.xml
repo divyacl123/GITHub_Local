@@ -48,7 +48,7 @@
     <artifactId>lombok</artifactId>
     <version>1.18.38</version>
 </dependency>
-<<<<<<< HEAD
+
 	
   
    </dependencies>
@@ -89,28 +89,7 @@
       </plugin>
 </plugins>
  </build>
-=======
-  </dependencies>
-  <profiles>
-  <profile>
- <!-- <id>sm</id>-->
-  <build>
-  <plugins>
-  
-           <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.1</version> <!-- Use the latest version -->
-                <configuration>
-                    <release>21</release>
-                </configuration>
-            </plugin>
-  
-</plugins>
-  </build>
-  </profile>
-  </profiles>
->>>>>>> branch 'master' of https://github.com/divyacl123/GITHub_Local.git
+
   
 </project> 
 
