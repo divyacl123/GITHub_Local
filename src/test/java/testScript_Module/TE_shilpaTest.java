@@ -6,7 +6,7 @@ public class TE_shilpaTest {
 @Test
 public void testing() {
 	System.out.println("hello divya");
-	System.out.println("main");
+	
 	
 }
 }
