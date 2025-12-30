@@ -3,17 +3,17 @@
 <suite thread-count="1" parallel="tests" name="Suite">
 	<test thread-count="1" parallel="tests" name="Test">
 		<classes>
-			<class name="TestNG.DemoTest" >
+			<class name="testScript_Module.DemoTest" >
 				<methods>
 					<exclude name="demo_m2"></exclude>
 				</methods>
 			</class>
-			<class name="TestNG.SimpleTest">
+			<class name="testScript_Module.SimpleTest">
 				<methods>
 					<include name="impact"></include>
 				</methods>
 			</class>
-			<class name="TestNG.SampleTest">
+			<class name="testScript_Module.SampleTest">
 				<methods>
 					<include name="impact"></include>
 				</methods>
