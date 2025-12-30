@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import genericUtilities.BaseClass;
 
-public class DemoTest extends BaseClass {
+public class DemoTest /*extends BaseClass*/ {
 
 	@Test
 	public void demo_m1() {

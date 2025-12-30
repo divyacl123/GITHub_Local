@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import genericUtilities.BaseClass;
 
-public class SampleTest extends BaseClass{
+public class SampleTest /*extends BaseClass*/{
 	
 	@Test(groups = "smoke")
 	public void sample_m1() {
