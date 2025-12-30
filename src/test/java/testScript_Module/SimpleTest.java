@@ -19,5 +19,6 @@ public class SimpleTest /*extends BaseClass*/ {
 	@Test
 	public void impact() {
 		System.out.println("----regional impacted areas of simple----");
+		System.out.println("hello good evening");
 	}
 }
