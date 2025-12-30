@@ -17,6 +17,7 @@ public class DemoTest /*extends BaseClass*/ {
 	public void demo_m2() {
 		System.out.println("---demo m2---");
 		System.out.println("Hello hi");
+		System.out.println("I am Divya");
 	}
 	
 }
