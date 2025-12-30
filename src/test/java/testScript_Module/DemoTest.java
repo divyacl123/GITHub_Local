@@ -10,11 +10,13 @@ public class DemoTest /*extends BaseClass*/ {
 	@Test
 	public void demo_m1() {
 		System.out.println("---demo m1---");
+		System.out.println("Hello hi");
 	}
 	
 	@Test(groups = "smoke")
 	public void demo_m2() {
 		System.out.println("---demo m2---");
+		System.out.println("Hello hi");
 	}
 	
 }
