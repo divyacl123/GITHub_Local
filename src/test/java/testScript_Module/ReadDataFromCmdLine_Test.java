@@ -28,14 +28,17 @@ public class ReadDataFromCmdLine_Test {
 		WebDriver driver=null;
 		if(BROWSER.contentEquals("chrome")) {
 			driver = new ChromeDriver();
+			System.out.println("chrome opened succecsfully");
 			
 		}
 		else if (BROWSER.equalsIgnoreCase("firefox")) {
 			driver=new FirefoxDriver();
+			System.out.println("firefox opened succecsfully");
 		}
 		
 		else if (BROWSER.equalsIgnoreCase("edge")) {
 			driver=new EdgeDriver();
+			System.out.println("edge opened succecsfully");
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
