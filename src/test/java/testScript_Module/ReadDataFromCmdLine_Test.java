@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class ReadDataFromCmdLine_Test {
 	
 	
-	@Test
+	@Test(groups = "regression")
 	public void cmdLine() throws InterruptedException {
 		
 		String BROWSER = System.getProperty("browser");

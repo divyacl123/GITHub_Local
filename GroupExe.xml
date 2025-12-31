@@ -11,6 +11,7 @@
       <class name="testScript_Module.SampleTest"/>
       <class name="testScript_Module.SimpleTest"/>
       <class name="testScript_Module.DemoTest"/>
+      <class name="testScript_Module.ReadDataFromCmdLine_Test"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
