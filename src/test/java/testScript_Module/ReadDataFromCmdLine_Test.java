@@ -47,6 +47,7 @@ public class ReadDataFromCmdLine_Test {
 		driver.findElement(By.name("user_name")).sendKeys(USERNAME);
 		driver.findElement(By.name("user_password")).sendKeys(PASSWORD);
 		driver.findElement(By.id("submitButton")).click();
+		System.out.println("App opened successfully");
 		
 		Thread.sleep(3000);
 		driver.quit();
